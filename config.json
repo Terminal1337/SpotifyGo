@@ -1,0 +1,23 @@
+{
+    "settings":{
+        "threads": "25",
+        "email_domain": "@gmail.com",
+        "email_verify" : false
+    },
+    "usernames" : {
+        "type" : "random", 
+        "path" : "usernames.txt"
+    },
+    "requests":{
+        "use_proxy" : false,
+        "proxy_file" : "proxies.txt",
+        "proxy_type" : "http"
+    },
+    "accounts":{
+        "set_gen_limit" : false,
+        "max_gen" : 100,
+        "rand_password" : false,
+        "password" : "FollowTerminal123$"
+    }
+    
+}
